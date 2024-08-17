@@ -6,5 +6,5 @@ function NavigationBar() {
 }
 
 const domNode = document.getElementById('navigation');
-const root = createRoot(domNode);
+const root = createRoot(domNode);			
 root.render(<NavigationBar />);
